@@ -178,4 +178,27 @@ color: #FFF;
                  margin-left: 120px;
               }
             }
-         
+         @media (max-width:480px) {
+            section{
+                flex-direction: column;
+            }
+            .mumia{
+                font-size: small;
+            }
+         }
+         @media (max-width:480px){
+            section{
+                flex-direction: column;
+            }
+            .kano{
+                font-size: 12px;
+            }
+         }
+        @media (max-width:255px){
+            section{
+                flex-direction: column;
+            }
+            .left{
+                margin-left: 50px;
+            }
+        }
